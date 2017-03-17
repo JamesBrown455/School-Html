@@ -1,4 +1,4 @@
-/* Style sheet created by: Student's First Name Student's Last Name, Today's Date */
+/* Style sheet created by: James F. Brown, 16 March 2017 */
 
 /* Style to create a fluid image */
 img {
@@ -38,17 +38,17 @@ nav ul {
 
 /* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation */
 nav li {
-	background-color: #336699; 
-	border-radius: 2em; 
-	list-style-type: none; 
-	margin: 0.3em; 
-	padding: 0.4em;  
+	background-color: #336699;
+	border-radius: 2em;
+	list-style-type: none;
+	margin: 0.3em;
+	padding: 0.4em;
 }
 
 /* Style changes navigation link text color to white and removes the underline */
-nav li a { 
-	color: #FFFFFF; 
-	text-decoration: none; 
+nav li a {
+	color: #FFFFFF;
+	text-decoration: none;
 }
 
 /* Style for the main specifies a block display, text properties, margins, padding, rounded corners, and borders  */
@@ -59,7 +59,7 @@ main {
 	margin-top: 0.5em;
 	padding: 1em;
 	background-color: #FFFFFF;
-	border-top: solid 0.2em #336699; 
+	border-top: solid 0.2em #336699;
 	border-bottom: solid 0.2em #336699;
 }
 
@@ -70,7 +70,7 @@ footer {
 	margin-top: 2em;
 }
 
-/* Media query for tablet layout */ 
+/* Media query for tablet layout */
 
 @media only screen and (min-width: 481px) {
 
@@ -97,8 +97,8 @@ main {
 /* Media query for desktop layout */
 
 @media only screen and (min-width: 769px) {
- 
-/* Style specifies width for container */ 
+
+/* Style specifies width for container */
 #container {
 	width: 100%;
 }
@@ -110,13 +110,13 @@ nav ul {
 	padding-right: 0.50%;
 }
 
-/* Style for navigation list items specifies a border radius, border, margin, width, and padding */ 
+/* Style for navigation list items specifies a border radius, border, margin, width, and padding */
 nav li {
 	border-radius: 0;
 	border-top: solid #FFFFFF;
 	border-bottom: solid #FFFFFF;
 	margin-left: 0;
-	margin-right: 0; 
+	margin-right: 0;
 	padding: 0;
 	width: 25%;
 }
@@ -127,9 +127,9 @@ nav li a {
 	padding: 0.7em;
 }
 
-/* Style rules for pseudo-classes */ 
+/* Style rules for pseudo-classes */
 nav li a:link {
-	color: #FFFFFF;	
+	color: #FFFFFF;
 }
 
 nav li a:hover {
@@ -137,7 +137,7 @@ nav li a:hover {
 }
 
 nav li a:active {
-	color: #FFFFFF ;	
+	color: #FFFFFF ;
 }
 
 /* Style specifies border, box shadow, and margins for the main element */
