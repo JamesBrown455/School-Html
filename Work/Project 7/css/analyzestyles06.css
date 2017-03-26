@@ -72,7 +72,7 @@ footer {
 
 /* Media query for tablet layout */
 
-@media only screen and (min-width: 481px) {
+@media only screen and (min-width: 575px) {
 
 /* Style specifies a horizontal display for navigation links */
 nav li {
@@ -100,7 +100,7 @@ main {
 
 /* Style specifies width for container */
 #container {
-	width: 100%;
+	width: 80%;
 }
 
 /* Style specifies margin and padding for the unordered list within the nav */
@@ -133,11 +133,12 @@ nav li a:link {
 }
 
 nav li a:hover {
-	color: #FFFFFF;
+	color: #FFCCFF;
+	font-size: 1.05em
 }
 
 nav li a:active {
-	color: #FFFFFF ;
+	color: #9900FF ;
 }
 
 /* Style specifies border, box shadow, and margins for the main element */
@@ -154,4 +155,9 @@ main p {
 	padding-right: 0.5em;
 }
 
+body{
+	 background: linear-gradient(#FFFFFF, #336699);
+	 background: -moz-linear-gradient {#FFFFFF, #336699};
+	background-attachment: fixed;
+}
 }
