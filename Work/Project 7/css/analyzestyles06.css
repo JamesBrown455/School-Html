@@ -156,8 +156,7 @@ main p {
 }
 
 body{
-	 background: linear-gradient(#FFFFFF, #336699);
-	 background: -moz-linear-gradient {#FFFFFF, #336699};
+	background: linear-gradient(#FFFFFF, #336699);
 	background-attachment: fixed;
 }
 }
