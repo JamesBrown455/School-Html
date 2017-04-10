@@ -1,4 +1,4 @@
-/* Style sheet created by: Student's First Name Student's Last Name, Today's Date */
+/* Style sheet created by: James Brown, 9 Apr 2017 */
 
 /* Style for body specifies a background color */
 body {
@@ -57,4 +57,33 @@ footer {
 	font-size: .70em;
 	text-align: center;
 	clear: left;
+}
+
+/* Style for the section element */
+section {
+	background-color: #183440;
+	color: #FFFFFF;
+	margin-top: 4%;
+	padding: 1%;
+
+}
+
+/* Style for the article element */
+article {
+	background-color: white;
+	border-radius: 3em;
+	color: #000000;
+	margin-top: 1%;
+	padding: 2%;
+}
+
+/* Style for the aside element */
+aside {
+	background-color: #183440;
+	border-radius: 3em;
+	width: 25%;
+	float: right;
+	padding: 2%;
+	margin-top: 1%;
+	color: #FFFFFF;
 }
