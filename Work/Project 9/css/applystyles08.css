@@ -1,4 +1,4 @@
-/* Style sheet created by: Student's First Name Student's Last Name, Today's Date */
+/* Style sheet created by: James Brown, 15 April 2017 */
 
 /* Style for body specifies a background color */
 body {
@@ -16,4 +16,30 @@ body {
 footer {
 	font-size: .70em;
 	text-align: center;
+}
+
+/* Style for the table element */
+table {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for the table, tr, th, td element */
+table, tr, th, td {
+	border-collapse: collapse;
+	border: solid 0.1em #000000;
+	padding: 1em;
+}
+
+/* Style for the td element */
+td {
+	text-align: center;
+}
+
+/* Style for the caption6 element */
+caption {
+	font-size: 2em;
+	padding: 1em;
+	margin-top: 1em;
 }
