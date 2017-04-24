@@ -1,4 +1,4 @@
-/* Style sheet created by: Student's First Name Student's Last Name, Today's Date */
+/* Style sheet created by: James Brown, 23 Apr 2017 */
 
 /* Style for body specifies a background color */
 body {
@@ -18,8 +18,34 @@ footer {
 	text-align: center;
 }
 
-/* Media query for tablet layout */ 
+/* Style rule for lable element */
+input, label {
+	display: block;
+
+}
+
+/* Style rule for input element */
+input {
+	margin: 1em;
+}
+
+/* Media query for tablet layout */
 
 @media only screen and (min-width: 481px) {
+
+	/* Style rule for lable element */
+	label {
+		float: left;
+		padding-right: 0.5em;
+		text-align: right;
+		width: 7em;
+
+	}
+
+	/* Style rule for input element */
+	input {
+		margin-bottom: 1em;
+	}
+
 
 }
